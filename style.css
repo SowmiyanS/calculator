@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    font-size: 20px; font-family: monospace; font-weight: bold;
 }
 
 .root {
@@ -8,18 +9,20 @@
     align-items: center;
     justify-content: center;
     height: 100vh;
+    font-size: 20px; font-family: monospace; font-weight: bold;
 }
 
 .calculator {
-    background-color: lightgray;
+    background-color: #241f1d;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 2em;
-    gap: 2em;
+    padding: 0.9em;
+    gap: 0.9em;
     border-radius: 20px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: 20px; font-family: monospace; font-weight: bold;
 
 }
 
@@ -30,6 +33,7 @@
     border-bottom:1px solid #eee;
     border-radius:10px;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: 20px; font-family: monospace; font-weight: bold;
 }
 
 #board {
@@ -38,6 +42,7 @@
     align-items: center;
     justify-content: center;
     gap: 0.6em;
+    font-size: 20px; font-family: monospace; font-weight: bold;
 }
 
 .rows {
@@ -46,29 +51,34 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    gap: 0.6em;
+    gap: 0.9em;
+    font-size: 20px; font-family: monospace; font-weight: bold;
 }
 
 .keys {
-    padding: 1em;
+    padding: 0.9em;
     border-radius: 0.9em;
     margin: auto;
-    background-color: azure;
+    background-color: #3e3a38;
     border: 1px solid black;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: 20px; font-family: monospace; font-weight: bold;
+    color: white;
 }
 .keys:hover {
     background-color: grey;
 }
 
 .cmd {
-    padding: 1em;
+    padding: 0.9em;
     border-radius: 0.9em;
     align-self:self-end;
     margin: auto;
-    background-color: azure;
+    background-color: #5003f3;
     border: 1px solid black;
     box-shadow:0 0 15px 4px rgba(0,0,0,0.06);
+    font-size: 20px; font-family: monospace; font-weight: bold;
+    color: white;
 }
 .cmd:hover {
     background-color: lightsalmon;
